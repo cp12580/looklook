@@ -19,6 +19,8 @@
 - compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
 - compile 'com.github.bumptech.glide:glide:3.7.0'
 - compile 'org.jsoup:jsoup:1.9.2'
+
+##预览图
 ![](https://raw.githubusercontent.com/cp12580/looklook/master/screenshot/1.PNG)
 ![](https://raw.githubusercontent.com/cp12580/looklook/master/screenshot/2.PNG)
 ![](https://raw.githubusercontent.com/cp12580/looklook/master/screenshot/3.PNG)
