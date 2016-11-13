@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/background_cards">
+
+        <ImageView
+            android:id="@+id/iv_zhihu_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_zhihu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="知乎日报知乎日报"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/iv_zhihu_item"
+            android:layout_alignTop="@id/iv_zhihu_item"
+            android:layout_marginLeft="20dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
